@@ -11,12 +11,12 @@ classes = ['Anthracnose', 'Black_Spot', 'Ring_Spot', 'Phytophthora', 'Powdery_Mi
 # Set the title and layout
 st.set_page_config(page_title="Papaya Disease Detection", layout="wide")
 st.title("🌿 Papaya Disease Detection")
-st.write("Upload an image of a papaya leaf for prediction.")
+st.write("Upload an image of a papaya  for prediction.")
 
 # Add a sidebar for additional information
 st.sidebar.header("About")
-st.sidebar.write("This application uses a deep learning model to detect diseases in papaya leaves.")
-st.sidebar.write("Upload a clear image of a papaya leaf to get a prediction.")
+st.sidebar.write("This application uses a deep learning model to detect diseases in papaya .")
+st.sidebar.write("Upload a clear image of a papaya  to get a prediction.")
 
 # File uploader
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
